@@ -62,11 +62,12 @@ button{
     border: none;
     border-radius: 12px;
     padding: 15px 0;
-    font-weight: 900;
+    font-weight: 700;
     cursor: pointer;
+    transition: 0.5s;
 }
 button:hover {
-    background-color: ;
+    background-color: #766CF1;
 }
 .cancel{
     font-weight: 900;
@@ -74,6 +75,12 @@ button:hover {
 }
 a {
     font-weight: 700;
+}
+a:hover {
+    color: #766CF1;
+}
+a:visited {
+    color: hsl(245, 75%, 52%);
 }
 footer {
     text-align: center;
